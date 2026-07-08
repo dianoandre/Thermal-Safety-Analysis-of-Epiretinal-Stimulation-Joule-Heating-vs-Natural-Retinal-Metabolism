@@ -2,7 +2,16 @@
 ### Joule Heating versus Natural Retinal Metabolism
 
 <div align="center">
-  <img src="media/animations/3D Temperature Distribution (Combined Study).gif" alt="3D Temperature Distribution (Combined Study)" width="600"/>
+  <table>
+    <tr>
+      <td align="center"><b>3D Temp. Distribution (Combined)</b><br><img src="media/animations/3D Temperature Distribution (Combined Study).gif" alt="3D Temperature Distribution (Combined Study)" width="400"/></td>
+      <td align="center"><b>3D Temp. Distribution (Joule)</b><br><img src="media/animations/3D Temperature Distribution (Joule Study).gif" alt="3D Temperature Distribution (Joule Study)" width="400"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Volumetric Heat Dispersion (Combined)</b><br><img src="media/animations/Volumetric Heat 3D Dispersion (Combined Study).gif" alt="Volumetric Heat 3D Dispersion (Combined Study)" width="400"/></td>
+      <td align="center"><b>Volumetric Heat Dispersion (Joule)</b><br><img src="media/animations/Volumetric Heat 3D Dispersion (Joule Study).gif" alt="Volumetric Heat 3D Dispersion (Joule Study)" width="400"/></td>
+    </tr>
+  </table>
 </div>
 
 ## 📌 Project Overview
@@ -47,4 +56,4 @@ The results overwhelmingly demonstrate the thermal safety of the device at a sta
 3. Run the **Joule Only**, **Metabolic Only**, or **Combined** studies to regenerate the temperature profiles.
 
 ---
-*Project for the course "Sensi Naturali e Artificiali" (Modelling of Multi-Physics Phenomena) - A.Y. 2025-2026*
+*Project for the course "Modelling of Multi-Physics Phenomena" - A.Y. 2025-2026*
