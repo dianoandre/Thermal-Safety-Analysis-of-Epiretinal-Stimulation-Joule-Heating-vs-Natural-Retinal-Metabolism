@@ -1,19 +1,6 @@
 # Thermal Safety Analysis of Epiretinal Stimulation
 ### Joule Heating versus Natural Retinal Metabolism
 
-<div align="center">
-  <table>
-    <tr>
-      <td align="center"><b>3D Temp. Distribution (Combined)</b><br><img src="media/animations/3D Temperature Distribution (Combined Study).gif" alt="3D Temperature Distribution (Combined Study)" width="400"/></td>
-      <td align="center"><b>3D Temp. Distribution (Joule)</b><br><img src="media/animations/3D Temperature Distribution (Joule Study).gif" alt="3D Temperature Distribution (Joule Study)" width="400"/></td>
-    </tr>
-    <tr>
-      <td align="center"><b>Volumetric Heat Dispersion (Combined)</b><br><img src="media/animations/Volumetric Heat 3D Dispersion (Combined Study).gif" alt="Volumetric Heat 3D Dispersion (Combined Study)" width="400"/></td>
-      <td align="center"><b>Volumetric Heat Dispersion (Joule)</b><br><img src="media/animations/Volumetric Heat 3D Dispersion (Joule Study).gif" alt="Volumetric Heat 3D Dispersion (Joule Study)" width="400"/></td>
-    </tr>
-  </table>
-</div>
-
 ## 📌 Project Overview
 This repository contains the finite element (FE) simulation and technical documentation for a university project analyzing the thermal safety of epiretinal prostheses (inspired by the **Argus II** system). 
 
@@ -29,19 +16,41 @@ The model couples two main physics interfaces:
    - *Metabolic Heat Generation:* Volumetric heat ($W/m^3$) derived from *in-vivo* oxygen consumption literature (Braun & Linsenmeier, Yu & Cringle, Birol).
 
 <div align="center">
-  <img src="media/images/model.png" alt="3D COMSOL Model Geometry" width="500"/>
+  <img src="media/images/model.png" alt="3D COMSOL Model Geometry" width="400"/>
+  <img src="media/images/Biphasic_Stimulation_Waveform.png" alt="Biphasic Stimulation Waveform" width="400"/>
 </div>
 
 ## 📊 Key Findings
 
 The results overwhelmingly demonstrate the thermal safety of the device at a standard $20\ \mu A$ stimulation amplitude:
+
 - **Joule Heating:** Highly localized at the electrode edges due to the divergence of current density, but with a maximum amplitude of just **~8.88 µK**.
+  <div align="center"><img src="media/images/3D_TEMP_joule_only.png" alt="Joule Heating" width="300"/></div>
+
 - **Metabolic Baseline:** Generates a broad thermal elevation of **~66 mK**, peaking at the photoreceptor layer (Outer Nuclear Layer).
+  <div align="center"><img src="media/images/3D_temp_met_only.png" alt="Metabolic Heat" width="300"/></div>
+
 - **Comparison:** The Joule heating represents just **0.013%** of the natural metabolic baseline. The electrical thermal contribution is entirely masked by normal cellular activity.
+  <div align="center"><img src="media/images/absolute_temperature_comparison.png" alt="Temperature Comparison" width="500"/></div>
+
 - **Polyimide Effect:** The theoretical thermal barrier effect of the polyimide substrate is negligible (~1 µK difference), further validating safety.
+  <div align="center"><img src="media/images/poymide_comparison.png" alt="Polyimide Comparison" width="400"/></div>
+
+## 🎥 Thermal Propagation Animations
+
+The following time-dependent animations (20 ms simulation) showcase the heat propagation in the retinal tissue.
 
 <div align="center">
-  <img src="media/images/absolute_temperature_comparison.png" alt="Temperature Comparison" width="600"/>
+  <table>
+    <tr>
+      <td align="center"><b>3D Temp. Distribution (Combined)</b><br><img src="media/animations/3D Temperature Distribution (Combined Study).gif" alt="3D Temperature Distribution (Combined Study)" width="400"/></td>
+      <td align="center"><b>3D Temp. Distribution (Joule)</b><br><img src="media/animations/3D Temperature Distribution (Joule Study).gif" alt="3D Temperature Distribution (Joule Study)" width="400"/></td>
+    </tr>
+    <tr>
+      <td align="center"><b>Volumetric Heat Dispersion (Combined)</b><br><img src="media/animations/Volumetric Heat 3D Dispersion (Combined Study).gif" alt="Volumetric Heat 3D Dispersion (Combined Study)" width="400"/></td>
+      <td align="center"><b>Volumetric Heat Dispersion (Joule)</b><br><img src="media/animations/Volumetric Heat 3D Dispersion (Joule Study).gif" alt="Volumetric Heat 3D Dispersion (Joule Study)" width="400"/></td>
+    </tr>
+  </table>
 </div>
 
 ## 📂 Repository Structure
