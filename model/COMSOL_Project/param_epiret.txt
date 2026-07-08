@@ -1,0 +1,66 @@
+width 300E-6[m]
+depth 700E-6[m]
+rho1 1000[kg/m^3] "Density"
+Cp1 4180[J/(kg*K)] "Heat capacity at constant pressure"
+
+d_vitreous 25[um] "Thickness vitreous layer"
+sig_vitreous 1.25[S/m] "Electrical conductivity vitreous layer"
+eps_vitreous 98 "Relative permittivity vitreous layer"
+k_vitreous 0.578[W/(m*K)] "Thermal conductivity vitreous layer"
+
+d_rgc 22[um] "Thickness RGC layer"
+sig_rgc 0.02262[S/m] "Electrical conductivity RGC layer"
+eps_rgc 150000 "Relative permittivity RGC layer"
+k_rgc 0.5650[W/(m*K)] "Thermal conductivity RGC layer"
+
+d_ipl 23[um] "Thickness inner plexiform layer"
+sig_ipl 0.03717[S/m] "Electrical conductivity inner plexiform layer"
+eps_ipl 235240 "Relative permittivity inner plexiform layer"
+k_ipl 0.5650[W/(m*K)] "Thermal conductivity inner plexiform layer"
+
+d_inl 27[um] "Thickness inner nuclear layer"
+sig_inl 0.01277[S/m] "Electrical conductivity inner nuclear layer"
+eps_inl 235240 "Relative permittivity inner nuclear layer"
+k_inl 0.5650[W/(m*K)] "Thermal conductivity inner nuclear layer"
+
+d_opl 16[um] "Thickness outer plexiform layer"
+sig_opl 0.03401[S/m] "Electrical conductivity outer plexiform layer"
+eps_opl 235240 "Relative permittivity outer plexiform layer"
+k_opl 0.5650[W/(m*K)] "Thermal conductivity outer plexiform layer"
+
+d_onl 31[um] "Thickness outer nuclear layer"
+sig_onl 0.01244[S/m] "Electrical conductivity outer nuclear layer"
+eps_onl 235240 "Relative permittivity outer nuclear layer"
+k_onl 0.5650[W/(m*K)] "Thermal conductivity outer nuclear layer"
+
+d_srs 40[um] "Thickness sub-retinal space"
+sig_srs 0.04831[S/m] "Electrical conductivity sub-retinal space"
+eps_srs 235240 "Relative permittivity sub-retinal space"
+k_srs 0.5650[W/(m*K)] "Thermal conductivity sub-retinal space"
+
+d_rpe 20[um] "Thickness retinal pigment epithelium"
+sig_rpe 0.01[S/m] "Electrical conductivity retinal pigment epithelium"
+eps_rpe 235240 "Relative permittivity retinal pigment epithelium"
+k_rpe 0.5650[W/(m*K)] "Thermal conductivity retinal pigment epithelium"
+
+d_cho 426[um] "Thickness choroid"
+sig_cho 0.087[S/m] "Electrical conductivity choroid"
+eps_cho 150000 "Relative permittivity choroid"
+k_cho 0.5650[W/(m*K)] "Thermal conductivity choroid"
+
+d_elec 10[um] "Thickness platinum electrode"
+r_elec 100[um] "Radius platinum electrode (Diameter 200um)"
+pitch_elec 575[um] "Center-to-center spacing of electrodes"
+
+sig_pt 9.43e6[S/m] "Electrical conductivity Platinum"
+eps_pt 1 "Relative permittivity Platinum"
+k_pt 71.6[W/(m*K)] "Thermal conductivity Platinum"
+rho_pt 21450[kg/m^3] "Density Platinum"
+cp_pt 133[J/(kg*K)] "Heat capacity Platinum"
+
+d_poly 15[um] "Thickness polyimide substrate"
+sig_poly 1e-14[S/m] "Electrical conductivity Polyimide (Insulator)"
+eps_poly 3.4 "Relative permittivity Polyimide"
+k_poly 0.12[W/(m*K)] "Thermal conductivity Polyimide (Insulator)"
+rho_poly 1420[kg/m^3] "Density Polyimide"
+cp_poly 1090[J/(kg*K)] "Heat capacity Polyimide"
